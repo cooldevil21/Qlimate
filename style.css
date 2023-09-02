@@ -1,0 +1,114 @@
+/* style.css */
+
+/* Reset some default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #ECF2FF;
+    color: #222;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .title {
+    color: #222;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .temperature-converter {
+    background: #ffffff;
+    border-radius: 2vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 25px 20px;
+    min-width: 38vw;
+    width: 100%;
+    height: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+  }
+  
+  .result {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .result-heading {
+    color: #555;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  
+  .celsius-value {
+    border-bottom: 2px solid #ccc;
+    padding: 10px;
+  }
+  
+  label {
+    color: #555;
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  select {
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ccc;
+    padding: 8px;
+    margin-bottom: 15px;
+  }
+  
+  input:focus {
+    border: 1px solid #dedeff;
+  }
+  
+  .degree-type {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  .degree-field {
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+  }
+  
+  option {
+    background-color: rgb(65, 125, 255);
+    color: #f6f6f6;
+  }
+  
+  #convert-btn {
+    background: #6c9aff;
+    border: none;
+    outline: none;
+    border-radius: 100vw;
+    color: #f6f6f6;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding: 18px 90px;
+    transition: all 0.3s ease-in;
+  }
+  
+  #convert-btn:hover {
+    background: rgb(65, 125, 255);
+  }
+  
